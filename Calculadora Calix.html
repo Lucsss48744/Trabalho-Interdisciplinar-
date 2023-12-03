@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Calix</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="icon" href="img/minilogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/calix.css">
+</head>
+<body>
+    <!--Barra de navegação-->
+    <div class="navbar">
+        <header>
+            <nav class="nav">
+                <ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Quem somos</a></li>
+                    <li><a href="index.html">Produtos</a></li>
+                    <li><a href="#Contatos">Contatos</a></li>
+                </ul>
+            </nav>
+    </div>
+    <!-- Fim da Barra de navegação-->
+
+    <!--Calculadora Calix-->
+        <section class="backg">
+            <div class="calculadora">
+                <article class="backgroundcalculator">
+                        <h1 class="titulocalculadora">Calculadora Calix</h1>
+                        <p class="equacao">ax² + bx + c = 0</p>
+                        <div class="elementoscalculadora">
+                            <label class="valor"></label>
+                            <input type="number"  id="valorA" placeholder="Valor de ''a'' " class="valoresabc">
+                            <labe  class="valor"l></label>
+                            <input type="number"  id="valorB"  placeholder="Valor de ''b''" class="valoresabc">
+                            <label  class="valor"></label>
+                            <input type="number"  id="valorC" placeholder="Valor de ''c''" class="valoresabc">
+                        </div>
+                        <div class="calculando">
+                            <button onclick="calcular()" class="calculo">Calcular</button>
+                        </div>
+                        <div id="result" class="resultados">
+                        </div>
+                        <div class="logocalc">
+                            <img src="img/Logo Raizy.png" alt="logoraizy" class="logo">
+                        </div>
+                </article>
+            </div>
+        </section>
+            <!-- fim Calculadora Calix-->
+
+             <!--Rodapé-->
+    <div class="footer">
+        <footer>
+            <section class="secfooter">
+                <img class="logofooter" src="img/Logo Raizy.png" alt="Logo Raizy">
+                <article>
+                    <img class="vetor" src="img/Vector 16.png" alt="barrinha">
+                    <ul class="rodape">
+                        <li class="rodainfo">Termos de Uso</li>
+                        <li class="rodainfo">Política e Privacidade</li>
+                        <li class="rodainfo">Info</li>
+                        <li class="rodainfo">Suporte</li>
+                    </ul>
+                    <div class="contatos" id="Contatos">
+                        <h2>Contatos</h2>
+                        <ul>
+                            <li class="email">Raizy@gmail.com</li>
+                            <li class="num">(11) 2553-7380</li>
+                            <li class="num">(11) 93115-7423</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </footer>
+    </div>
+    <!--Fim do Rodapé-->  
+</body>
+</html>

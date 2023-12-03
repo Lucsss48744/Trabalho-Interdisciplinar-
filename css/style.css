@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "JosefinSansRegular";
+    src: url(static/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSansLight;
+    src: url(static/JosefinSans-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/imagem\ de\ fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*Css da barra de navegação*/
+.nav{
+    list-style-type: none;
+    font-family: JosefinSansRegular;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    font-size: 20px;
+    padding: 40px;
+    display: inline-block;
+}
+.nav li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar{
+   background-color: rgba(150, 165, 197, 1);
+   width: 100%;
+   height: max-content;
+  
+}
+.imgsnav{
+    display: flex;
+    justify-content: center; /*alinhamento Horizontal*/
+    align-items: center; /*Alinhamento vertical*/
+    margin-top: 210px;
+}
+.banner{
+    position: absolute;
+}
+.logo{
+    position: relative;
+}
+.suban{
+    position: absolute;
+    font-family: JosefinSansRegular;
+    color: white;
+    font-size: 40px;
+    padding-top: 250px;
+    text-align: center;
+}
+/*Fim do Css da barra de navegação*/
+
+/*Css da parte "Quem Somos*/
+.conteudop{
+    text-align: center;
+}
+section h1{
+    font-family: JosefinSansLight;
+    font-size: 70px;
+    font-weight: lighter;
+    padding-top: 350px;
+}
+article p{
+    font-family: JosefinSansLight;
+    font-size: 40px;
+    font-weight: lighter;
+    width: 850px;
+    text-align: right;
+    display: flex;
+    margin-top: 150px;
+    transform: translate(30px, 100px);
+}
+aside img{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.empresa{
+    position: absolute;
+    left: 60%;
+    top: 32%;
+    height: 650px;
+}
+.pessoa{
+    position: relative;
+    padding-left: 500px;
+    left: 53%;
+    top: 1%;
+}
+/*Fim Css da parte Quem Somos*/
+
+/*Css do Conheça nossos produtos*/
+.titulop{
+    font-family: JosefinSansLight;
+    font-weight: lighter;
+    font-size: 70px;
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.imgcalc1{
+    text-align: center;
+    background-color: rgba(150, 165, 197, 1);
+    height: 500px;
+}
+.figpessoa{
+    text-align: left;
+}
+.imgcalc{
+    padding: 15px;
+    margin-top:  -190px;
+}
+.imghumaninho{
+    transform: translate(0px, 400px);
+    padding: 0;
+    margin-top: -500px;
+}
+.textocalc{
+    font-family: JosefinSansRegular;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    display: inline;
+    text-align: justify;
+    padding: 6%;
+    margin: -7px;
+}
+/*Fim do Css do Conheça nossos produtos*/
+
+/*Css do Footer*/
+.secfooter{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+.logofooter{
+    transform: scale(0.7);
+    padding-top: 70px;   
+}
+.rodape{
+    list-style-type: none;
+    font-family: JosefinSansLight;
+}
+.rodainfo{
+    display: inline-block;
+    font-size: 30px;
+    padding: 2%;
+    margin-top: -100px;
+}
+.vetor{
+    transform: translateY(30px);
+}
+.contatos{
+    display: inline;
+    font-family: JosefinSansLight;
+}
+.contatos h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.email{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.num{
+    font-size: 25px;
+}
+/*Fim do Css do Footer*/
+
+
+

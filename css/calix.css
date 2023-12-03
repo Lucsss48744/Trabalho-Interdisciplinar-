@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "JosefinSansRegular";
+    src: url(static/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSansLight;
+    src: url(static/JosefinSans-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.site{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*Css da barra de navegação*/
+.nav{
+    list-style-type: none;
+    font-family: JosefinSansRegular;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    font-size: 20px;
+    padding: 40px;
+    display: inline-block;
+}
+.nav li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar{
+   background-color: rgba(150, 165, 197, 1);
+   width: 100%;
+   height: max-content;
+}
+/*fim do CSS da barra de navegação*/
+
+/*Css da calculadora*/
+.backg{
+    background-image: url(../img/backgroundcalculadora.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 916px;
+    margin-top: -10px;
+}
+.calculadora{
+    display: flex;
+    justify-content: center;
+}
+.backgroundcalculator{
+    background-color:  rgba(255, 255, 255, 1);
+    width: 704px;
+    height: max-content;
+    border-radius: 25px;
+    margin-top: 63px;
+}
+.titulocalculadora{
+    font-family: JosefinSansRegular;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #7599E6;
+    padding-top: 43px;
+}
+.equacao{
+    font-family: JosefinSansRegular;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.00);
+    border-radius: 50px;
+    border: 3px solid rgba(207, 155, 38, 1);
+    margin: 70px 200px;
+    padding: 5px;
+}
+::placeholder{
+    color: black
+}
+.elementoscalculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valor{
+    padding-left: 30px;
+    margin-right: -5px;
+    margin-left: -10px;
+}
+.valoresabc{
+    font-family: JosefinSansLight;
+    font-weight: lighter;
+    font-size: 24px;
+    text-align:  center;
+    width: 143px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid rgba(134, 159, 213, 1);
+    background-color: rgba(217, 217, 217, 0);
+    padding-left: 15px;
+}
+.calculando{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+.calculo{
+    font-family: JosefinSansRegular;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    width: 171px;
+    height: 58px;
+    border-radius: 50px;
+    border: 3px solid rgba(40, 76, 154, 1);
+    background-color: rgba(217, 217, 217, 0);
+}
+.resultados{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+#result{
+    font-family: JosefinSansLight;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+.raizes{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    margin-bottom: 52px;
+}
+.logocalc{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(50, 96, 195, 1);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 78px;
+    width: 704px;
+}
+.logo{
+    transform: scale(0.6);
+}
+/* fim do Css da calculadora*/
+
+/*Css do Footer*/
+.secfooter{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+.logofooter{
+    transform: scale(0.7);
+    padding-top: 70px;   
+}
+.rodape{
+    list-style-type: none;
+    font-family: JosefinSansLight;
+}
+.rodainfo{
+    display: inline-block;
+    font-size: 30px;
+    padding: 2%;
+    margin-top: -100px;
+}
+.vetor{
+    transform: translateY(30px);
+}
+.contatos{
+    display: inline;
+    font-family: JosefinSansLight;
+}
+.contatos h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.email{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.num{
+    font-size: 25px;
+}
+/*Fim do Css do Footer*/
